@@ -415,6 +415,14 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.about-stats .skills .skill:hover {
+  cursor: default;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
 }
 
 .about-stats .skills .skill .prog-title {
@@ -458,6 +466,11 @@ section {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   width: 60%;
+}
+
+span.together-span {
+  color: var(--color-secondary-night-eye);
+  font-size: 2.3rem;
 }
 
 .stat-title {
@@ -711,18 +724,17 @@ section {
   font-size: 1.3rem;
 }
 
-.contact-content-cont .left-contact .contact-icon-div {
+.contact-content-cont .left-contact .contact-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2rem;
-  padding-right: 3rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.contact-content-cont .left-contact a.contact-icon {
+.contact-content-cont .left-contact .contact-icons .contact-icon-div {
+  margin: 0 1rem;
+}
+
+.contact-content-cont .left-contact .contact-icons a.contact-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -743,15 +755,15 @@ section {
   transition: all .4s ease-in-out;
 }
 
-.contact-content-cont .left-contact a.contact-icon:hover {
+.contact-content-cont .left-contact .contact-icons a.contact-icon:hover {
   background-color: var(--color-secondary-night-eye);
 }
 
-.contact-content-cont .left-contact a.contact-icon:hover i {
+.contact-content-cont .left-contact .contact-icons a.contact-icon:hover i {
   color: var(--color-primary-night-eye);
 }
 
-.contact-content-cont .left-contact a.contact-icon i {
+.contact-content-cont .left-contact .contact-icons a.contact-icon i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -803,9 +815,9 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .contact-content-cont .right-contact .submit-btn .btn-submit {

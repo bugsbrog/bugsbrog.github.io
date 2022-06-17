@@ -302,6 +302,11 @@ section {
         .skill {
             display: flex;
             flex-direction: column;
+            transition: all .4s ease-in-out;
+                &:hover {
+                    cursor: default;
+                    transform: translateY(-8px);
+                }
             .prog-title {
                 text-transform: uppercase;
                 font-weight: 500;
@@ -369,6 +374,10 @@ section {
                     transition: all .4s ease-in-out;
                     width: 60%;
                 }
+        }
+        span.together-span {
+            color: var(--color-secondary-night-eye);
+            font-size: 2.3rem;
         }
 
 .stat-title {
@@ -553,14 +562,14 @@ section {
                 }
             }
         }
-        // .contact-icons {
-        //     display: flex;
-        //     // justify-content: space-between;
-        .contact-icon-div {
+        .contact-icons {
             display: flex;
-            margin-top: 2rem;
-            padding-right: 3rem;
-            justify-content: space-between;
+            // justify-content: space-between;
+        .contact-icon-div {
+        //     // display: flex;
+        //     // flex-direction: column;
+        //     // // justify-content: space-between;
+            margin: 0 1rem;
         }
             a.contact-icon {
                 display: flex;
@@ -588,7 +597,7 @@ section {
                 }
             }
         }
-    // }
+    }
 
     .right-contact {
         flex: 3;
@@ -617,7 +626,7 @@ section {
         }
         .submit-btn {
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
             .btn-submit {
                 background-color: var(--color-secondary-night-eye);
                 border: none;
