@@ -5,10 +5,14 @@
                 grid-gap: 2rem;
         }
         .prog-title {
+            width: 12.7rem;
             // text-align: center;
             // margin-right: 3rem;
             // display: flex;
             // justify-content: center;
+        }
+        .prog-title-jest {
+            margin-right: 3rem;
         }
     .about-container {
         grid-template-columns: 1fr; // this means that the grid will have only one column

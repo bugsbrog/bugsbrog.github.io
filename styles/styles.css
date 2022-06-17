@@ -431,6 +431,13 @@ section {
   text-align: center;
 }
 
+.about-stats .skills .skill .prog-title-jest {
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 3rem;
+}
+
 .about-stats .skills .skill .skill-svg {
   width: 150px;
   display: -webkit-box;
@@ -946,6 +953,12 @@ span.together-span {
     -ms-grid-columns: (1fr)[2] !important;
         grid-template-columns: repeat(2, 1fr) !important;
     grid-gap: 2rem;
+  }
+  .prog-title {
+    width: 12.7rem;
+  }
+  .prog-title-jest {
+    margin-right: 3rem;
   }
   .about-container {
     -ms-grid-columns: 1fr;
