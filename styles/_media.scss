@@ -1,4 +1,15 @@
 @media screen and (max-width: 600px) {
+    .skills {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr) !important;
+                grid-gap: 2rem;
+        }
+        .prog-title {
+            // text-align: center;
+            // margin-right: 3rem;
+            // display: flex;
+            // justify-content: center;
+        }
     .about-container {
         grid-template-columns: 1fr; // this means that the grid will have only one column
         .right-about {
@@ -34,7 +45,7 @@
             span {
                 font-size: 2.5rem;
             }
-            
+    
             .bg-text {
                 font-size: 2.5rem;
                 
@@ -42,6 +53,11 @@
         }
     }
 }
+//     .skills {
+//         display: grid;
+//         grid-template-columns: repeat(4, 1fr);
+//         grid-gap: 2rem;
+// }
 
 @media screen and (max-width: 1432px) {
     header {
