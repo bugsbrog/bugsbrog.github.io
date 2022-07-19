@@ -72,6 +72,9 @@
     }
     .contact-content-cont {
         flex-direction: column;
+        .left-contact {
+            margin: 0;
+        }
         .right-contact {
             margin-left: 0;
             margin-top: 2.5rem;
@@ -157,14 +160,15 @@
     }
 
     .controls {
-        top: auto; // this means that the controls will be on the bottom of the screen
-        bottom: 0;
-        flex-direction: row;
+        // top: auto; // this means that the controls will be on the bottom of the screen
+        // bottom: 0;
+        // flex-direction: row;
         justify-content: center;
-        left: 50%;
+        bottom: 300px;
+        left: 35rem;
         transform: translateX(-50%);
         width: 100%;
-        background-color: var(--color-gray-5-night-eye);
+        // background-color: var(--color-gray-5-night-eye);
         .control {
             margin: .6rem 1.5rem !important;
         }

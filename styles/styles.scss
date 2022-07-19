@@ -331,25 +331,6 @@ section {
                 height: auto;
             }
         }
-        // .skill-svg {
-        //     display: block;
-        //     width: 200px;
-        //     margin-bottom: 1rem;
-        //     margin-left: auto;
-        //     margin-right: auto;
-        // }
-        // .skill-svg img {
-        //     max-width: 100%;
-        //     height: auto;
-        // }
-        // .skill-svg-css {
-        //     width: 150px;
-        //     // margin-top: 1rem;
-        // }
-        // .skill-svg-js {
-        //     width: 250px;
-        //     // margin-top: 1rem;
-        // }
     }
         .prog-title {
             text-transform: uppercase;
@@ -358,28 +339,15 @@ section {
                 font-size: 1.5rem;
             }
         }
-            // .progress-cont {
-            //     display: flex;
-            //     align-items: center;
-            //     prog-text {
-            //         color: var(--color-gray-2-night-eye);
-            //     }
-                // .progress {
-                //     width: 100%;
-                //     height: .45rem;
-                //     background-color: var(--color-gray-4-night-eye);
-                //     margin-left: 1rem;
-                //     // position: relative;
-                // }
-                span {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100%;
-                    background-color: var(--color-secondary-night-eye);
-                    transition: all .4s ease-in-out;
-                    width: 60%;
-                }
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+                height: 100%;
+                background-color: var(--color-secondary-night-eye);
+                transition: all .4s ease-in-out;
+                width: 60%;
+            }
         }
         span.together-span {
             color: var(--color-secondary-night-eye);
