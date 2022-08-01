@@ -1,3 +1,7 @@
+@media screen and (max-width: 390px) {
+    
+}
+
 @media screen and (max-width: 600px) {
     .skills {
                 display: grid;
@@ -56,12 +60,11 @@
             }
         }
     }
+    
+    .controls {
+        margin-left: 0;
+    }
 }
-//     .skills {
-//         display: grid;
-//         grid-template-columns: repeat(4, 1fr);
-//         grid-gap: 2rem;
-// }
 
 @media screen and (max-width: 1432px) {
     header {
@@ -92,16 +95,35 @@
 }
 
 @media screen and (max-width: 1070px) {
+    // About Styles
+    
     .about-container {
         grid-template-columns: 1fr;
         .right-about {
             padding-top: 2.5rem;
         }
     }
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 2rem;
+    }
+
+    .prog-title {
+        margin-right: 9rem;
+    }
+
+    .prog-title-jest {
+        margin-right: 9rem;
+    }
+
+    // Portfolio Styles
 
     .portfolios {
         grid-template-columns: 1fr, 1fr;
     }
+
+    // Contact Styles
 
     .main-title {
         h2 {
@@ -193,5 +215,9 @@
         .bg-text {
             font-size: 4rem;
         }
+    }
+
+    .controls {
+        margin-left: 5.5rem;
     }
 }
