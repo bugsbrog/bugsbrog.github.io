@@ -397,6 +397,7 @@ section {
 
 .about-stats {
   padding-bottom: 4rem;
+  margin-right: 5rem;
 }
 
 .about-stats .skills {
@@ -428,14 +429,20 @@ section {
 .about-stats .skills .skill .prog-title {
   text-transform: uppercase;
   font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
+  margin-right: 5rem;
 }
 
 .about-stats .skills .skill .prog-title-jest {
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
-  margin-left: 3rem;
 }
 
 .about-stats .skills .skill .skill-svg {
