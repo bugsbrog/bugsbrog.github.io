@@ -1,223 +1,221 @@
 @media screen and (max-width: 390px) {
-    
 }
 
 @media screen and (max-width: 600px) {
-    .skills {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr) !important;
-                grid-gap: 2rem;
-        }
-        .prog-title {
-            width: 12.7rem;
-            // text-align: center;
-            // margin-right: 3rem;
-            // display: flex;
-            // justify-content: center;
-        }
-        .prog-title-jest {
-            margin-right: 3rem;
-        }
-    .about-container {
-        grid-template-columns: 1fr; // this means that the grid will have only one column
-        .right-about {
-            grid-template-columns: 1fr;
-            padding-top: 2.5rem;
-        }
+	.skills {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr) !important;
+		grid-gap: 2rem;
+	}
+	.prog-title {
+		width: 12.7rem;
+		// text-align: center;
+		// margin-right: 3rem;
+		// display: flex;
+		// justify-content: center;
+	}
+	.prog-title-jest {
+		margin-right: 3rem;
+	}
+	.about-container {
+		grid-template-columns: 1fr; // this means that the grid will have only one column
+		.right-about {
+			grid-template-columns: 1fr;
+			padding-top: 2.5rem;
+		}
 
-        .left-about {
-            padding-right: 0;
-            p {
-                padding-left: 0;
-            }
-        }
-    }
+		.left-about {
+			padding-right: 0;
+			p {
+				padding-left: 0;
+			}
+		}
+	}
 
-    .timeline {
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-    
-    .portfolios {
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
+	.timeline {
+		grid-template-columns: 1fr;
+		padding-bottom: 6rem;
+	}
 
-    .section {
-        padding: 2rem 2.5rem !important;
-    }
+	.portfolios {
+		grid-template-columns: 1fr;
+		padding-bottom: 6rem;
+	}
 
-    .main-title {
-        h2 {
-            font-size: 2rem;
-            span {
-                font-size: 2.5rem;
-            }
-    
-            .bg-text {
-                font-size: 2.5rem;
-                
-            }
-        }
-    }
-    
-    .controls {
-        margin-left: 0;
-    }
+	.section {
+		padding: 2rem 2.5rem !important;
+	}
+
+	.main-title {
+		h2 {
+			font-size: 2rem;
+			span {
+				font-size: 2.5rem;
+			}
+
+			.bg-text {
+				font-size: 2.5rem;
+			}
+		}
+	}
+
+	.controls {
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 1432px) {
-    header {
-        padding: 0 !important;
-    }
-    .section {
-        padding: 7rem 11rem;
-    }
-    .contact-content-cont {
-        flex-direction: column;
-        .left-contact {
-            margin: 0;
-        }
-        .right-contact {
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
+	header {
+		padding: 0 !important;
+	}
+	.section {
+		padding: 7rem 11rem;
+	}
+	.contact-content-cont {
+		flex-direction: column;
+		.left-contact {
+			margin: 0;
+		}
+		.right-contact {
+			margin-left: 0;
+			margin-top: 2.5rem;
+		}
+	}
 
-    .contact-content-cont .right-contact .i-ctrl-2 {
-        flex-direction: column;
-    }
+	.contact-content-cont .right-contact .i-ctrl-2 {
+		flex-direction: column;
+	}
 
-    .contact-content-cont .right-contact .i-ctrl-2 :last-child {
-        margin-left: 0;
-        margin-top: 1.5rem;
-    }
+	.contact-content-cont .right-contact .i-ctrl-2 :last-child {
+		margin-left: 0;
+		margin-top: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 1070px) {
-    // About Styles
-    
-    .about-container {
-        grid-template-columns: 1fr;
-        .right-about {
-            padding-top: 2.5rem;
-        }
-    }
-    .skills {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr) !important;
-        grid-gap: 2rem;
-    }
+	// About Styles
 
-    .prog-title {
-        margin-right: 9rem;
-    }
+	.about-container {
+		grid-template-columns: 1fr;
+		.right-about {
+			padding-top: 2.5rem;
+		}
+	}
+	.skills {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr) !important;
+		grid-gap: 2rem;
+	}
 
-    .prog-title-jest {
-        margin-right: 9rem;
-    }
+	.prog-title {
+		margin-right: 9rem;
+	}
 
-    // Portfolio Styles
+	.prog-title-jest {
+		margin-right: 9rem;
+	}
 
-    .portfolios {
-        grid-template-columns: 1fr, 1fr;
-    }
+	// Portfolio Styles
 
-    // Contact Styles
+	.portfolios {
+		grid-template-columns: 1fr, 1fr;
+	}
 
-    .main-title {
-        h2 {
-            font-size: 4rem;
-            span {
-                font-size: 4rem;
-            }
-            .bg-text {
-                font-size: 4.5rem;
-            }
-        }
-    }
+	// Contact Styles
+
+	.main-title {
+		h2 {
+			font-size: 4rem;
+			span {
+				font-size: 4rem;
+			}
+			.bg-text {
+				font-size: 4.5rem;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 970px) {
-    .section {
-        padding: 7rem 6rem;
-    }
+	.section {
+		padding: 7rem 6rem;
+	}
 
-    header {
-        padding: 0;
-    }
+	header {
+		padding: 0;
+	}
 
-    header .right-header {
-        padding: 0 !important;
-    }
+	header .right-header {
+		padding: 0 !important;
+	}
 
-    .theme-btn {
-        width: 50px;
-        height: 50px;
-    }
+	.theme-btn {
+		width: 50px;
+		height: 50px;
+	}
 
-    .header-content {
-        grid-template-columns: 1fr; // this means that the grid will have only one column
-        padding-bottom: 6rem;
-    }
+	.header-content {
+		grid-template-columns: 1fr; // this means that the grid will have only one column
+		padding-bottom: 6rem;
+	}
 
-    .left-header {
-        .h-shape {
-            display: none;
-        }
-    }
+	.left-header {
+		.h-shape {
+			display: none;
+		}
+	}
 
-    .right-header {
-        grid-row: 1; // this means that the grid will have only one row. Also this changes the order of the elements in the grid ("Hi" above the image now).
-        width: 90%;
-        margin: 0 auto; // auto means that the element will be centered
-        .name {
-            font-size: 2.5rem !important;
-        }
-    }
+	.right-header {
+		grid-row: 1; // this means that the grid will have only one row. Also this changes the order of the elements in the grid ("Hi" above the image now).
+		width: 90%;
+		margin: 0 auto; // auto means that the element will be centered
+		.name {
+			font-size: 2.5rem !important;
+		}
+	}
 
-    .header-content .left-header .image {
-        margin: 0 auto;
-        width: 90%;
-    }
+	.header-content .left-header .image {
+		margin: 0 auto;
+		width: 90%;
+	}
 
-    .controls {
-        // top: auto; // this means that the controls will be on the bottom of the screen
-        // bottom: 0;
-        // flex-direction: row;
-        justify-content: center;
-        bottom: 300px;
-        left: 35rem;
-        transform: translateX(-50%);
-        width: 100%;
-        // background-color: var(--color-gray-5-night-eye);
-        .control {
-            margin: .6rem 1.5rem !important;
-        }
-    }
+	.controls {
+		// top: auto; // this means that the controls will be on the bottom of the screen
+		// bottom: 0;
+		// flex-direction: row;
+		justify-content: center;
+		bottom: 300px;
+		left: 35rem;
+		transform: translateX(-50%);
+		width: 100%;
+		// background-color: var(--color-gray-5-night-eye);
+		.control {
+			margin: 0.6rem 1.5rem !important;
+		}
+	}
 }
 
 @media screen and (max-width: 700px) {
-    .section {
-        padding: 7rem 3rem;
-    }
+	.section {
+		padding: 7rem 3rem;
+	}
 
-    .about-stats {
-        .progress-bars {
-            grid-template-columns: 1fr;
-        }
-    }
-    .main-title {
-        h2 {
-            font-size: 3rem;
-        }
+	.about-stats {
+		.progress-bars {
+			grid-template-columns: 1fr;
+		}
+	}
+	.main-title {
+		h2 {
+			font-size: 3rem;
+		}
 
-        .bg-text {
-            font-size: 4rem;
-        }
-    }
+		.bg-text {
+			font-size: 4rem;
+		}
+	}
 
-    .controls {
-        margin-left: 5.5rem;
-    }
+	.controls {
+		margin-left: 5.5rem;
+	}
 }
