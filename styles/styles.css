@@ -483,6 +483,47 @@ span.together-span {
   justify-content: center;
 }
 
+.featured .featured-project-image {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.featured .featured-project-image:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.3);
+}
+.featured .featured-project-image img {
+  transition: transform 0.4s ease;
+}
+.featured .featured-project-image:hover img {
+  transform: scale(1.04);
+}
+.featured .featured-links .icon {
+  transition: all 0.3s ease;
+}
+.featured .featured-links .icon:hover {
+  background-color: var(--color-white-night-eye);
+  transform: translateY(-4px) scale(1.08);
+}
+.featured .featured-links .icon:hover i {
+  color: var(--color-primary-night-eye);
+}
+.featured .featured-btn .main-btn {
+  transition: all 0.3s ease;
+}
+.featured .featured-btn .main-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+.featured .featured-btn .main-btn:hover .btn-icon {
+  background-color: var(--color-white-night-eye);
+}
+.featured .featured-btn .main-btn:hover .btn-icon i {
+  color: var(--color-primary-night-eye);
+  transform: translateX(2px);
+}
+.featured .featured-btn .btn-icon i {
+  transition: all 0.3s ease;
+}
+
 .portfolio-text {
   padding: 2rem 0;
   text-align: center;
