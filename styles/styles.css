@@ -448,8 +448,8 @@ span.together-span {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: center top;
+     object-position: center top;
 }
 
 .featured-project-content h3 {
