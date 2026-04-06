@@ -36,6 +36,24 @@
 		grid-template-columns: 1fr;
 		padding-bottom: 6rem;
 	}
+	.featured-project {
+  		.featured-project-container {
+    		grid-template-columns: 1fr;
+  		}
+
+	.featured-project-content {
+		text-align: center;
+
+		.featured-description {
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		.featured-links {
+		justify-content: center;
+		}
+  }
+}
 
 	.portfolios {
 		grid-template-columns: 1fr;
