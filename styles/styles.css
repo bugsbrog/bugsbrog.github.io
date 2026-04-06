@@ -497,6 +497,14 @@ span.together-span {
   color: var(--color-primary-night-eye);
 }
 
+.featured-btn {
+  margin-top: 0.5rem;
+}
+
+.featured-btn .main-btn {
+  width: 260px;
+}
+
 .portfolio-text {
   padding: 2rem 0;
   text-align: center;
