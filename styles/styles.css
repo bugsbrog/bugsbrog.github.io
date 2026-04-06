@@ -497,12 +497,23 @@ span.together-span {
   color: var(--color-primary-night-eye);
 }
 
-.featured-btn {
-  margin-top: 0.5rem;
+.featured-btn .main-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
 }
 
-.featured-btn .main-btn {
-  width: 260px;
+.featured-btn .btn-text {
+  padding: 0 1.5rem;
+}
+
+.featured-btn .btn-icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-text {
