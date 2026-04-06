@@ -538,6 +538,7 @@ section {
                 .icon {
                     display: grid;
                     grid-template-columns: 40px 1fr;
+                    transition: all .2s ease;
                     i {
                         display: flex;
                         align-items: center;
