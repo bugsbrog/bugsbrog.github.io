@@ -439,9 +439,9 @@ span.together-span {
 .featured .featured-project-image {
   height: 360px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-self: center;
+  width: 100%;
+  max-width: 420px;
 }
 .featured .featured-project-image img {
   width: 100%;

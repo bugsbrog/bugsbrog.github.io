@@ -444,13 +444,13 @@ section {
     margin-top: 3rem;
   }
 
-  .featured-project-image {
-    height: 360px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .featured-project-image {
+        height: 360px;
+        overflow: hidden;
+        justify-self: center;
+        width: 100%;
+        max-width: 420px;
+    }
 
     .featured-project-image img {
         width: 100%;
