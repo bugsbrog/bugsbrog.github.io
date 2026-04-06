@@ -429,47 +429,47 @@ span.together-span {
   color: var(--color-gray-2-night-eye);
 }
 
-.featured-project .featured-project-container {
+.featured .featured-project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
   align-items: center;
   margin-top: 3rem;
 }
-.featured-project .featured-project-image {
+.featured .featured-project-image {
   height: 300px;
   overflow: hidden;
 }
-.featured-project .featured-project-image img {
+.featured .featured-project-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
 }
-.featured-project .featured-project-content h3 {
+.featured .featured-project-content h3 {
   font-size: 2rem;
   color: var(--color-white-night-eye);
   margin-bottom: 0.5rem;
 }
-.featured-project .featured-project-content .featured-tech {
+.featured .featured-project-content .featured-tech {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--color-grey-2);
   margin-bottom: 1rem;
 }
-.featured-project .featured-project-content .featured-description {
+.featured .featured-project-content .featured-description {
   color: var(--color-grey-1);
   line-height: 1.8;
   margin-bottom: 1.5rem;
   max-width: 500px;
 }
-.featured-project .featured-project-content .featured-links {
+.featured .featured-project-content .featured-links {
   display: flex;
   gap: 1rem;
 }
-.featured-project .featured-project-content .featured-links .icon {
+.featured .featured-project-content .featured-links .icon {
   background-color: var(--color-primary-night-eye);
   border-radius: 50%;
   width: 50px;
@@ -479,15 +479,15 @@ span.together-span {
   justify-content: center;
   transition: all 0.3s ease;
 }
-.featured-project .featured-project-content .featured-links .icon i {
+.featured .featured-project-content .featured-links .icon i {
   font-size: 1.3rem;
   color: var(--color-white-night-eye);
 }
-.featured-project .featured-project-content .featured-links .icon:hover {
+.featured .featured-project-content .featured-links .icon:hover {
   background-color: var(--color-white-night-eye);
   transform: translateY(-3px);
 }
-.featured-project .featured-project-content .featured-links .icon:hover i {
+.featured .featured-project-content .featured-links .icon:hover i {
   color: var(--color-primary-night-eye);
 }
 
