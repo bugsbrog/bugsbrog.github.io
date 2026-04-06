@@ -514,6 +514,25 @@ section {
     }
   }
 
+  .featured-btn .main-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.featured-btn .btn-text {
+  padding: 0 1.5rem;
+}
+
+.featured-btn .btn-icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 //Portfolios
 .portfolio-text {
     padding: 2rem 0;
