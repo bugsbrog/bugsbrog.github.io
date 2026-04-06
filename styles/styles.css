@@ -429,18 +429,18 @@ span.together-span {
   color: var(--color-gray-2-night-eye);
 }
 
-.featured-project .featured-project-container {
+.featured .featured-project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
   align-items: center;
   margin-top: 3rem;
 }
-.featured-project .featured-project-image {
+.featured .featured-project-image {
   height: 300px;
   overflow: hidden;
 }
-.featured-project .featured-project-image img {
+.featured .featured-project-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
